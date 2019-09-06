@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+    --soft-blue: hsl(243, 86%, 85%);
+    --dark-blue: hsl(243, 87%, 12%);
+    --green: hsl(163, 95%, 43%);
+    --gray: hsl(0, 0%, 50%);   
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, p, h3 {
+    padding-bottom: 20px;
+}
+
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.section-left {
+    background-image: linear-gradient(to right top, #3879d9, #2160cb, #0f47bb, #0b2ca8, #120594);
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    margin: 50px auto;
+    width: 60%;
+    height: 60%;
+}
+
+.section-right {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+.header {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.social-ico {
+    display: flex;
+    width: 20%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-ico li {
+    height: min-content;
+}
+
+input {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="email"] {
+    width: 300px;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: var(--green);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.terms {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+
+
+

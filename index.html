@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <script src="https://kit.fontawesome.com/a7707157f1.js"></script>
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Beta sign up split layout Challenge</title>
@@ -15,22 +16,49 @@
   </style>
 </head>
 <body>
-  All your files in one secure location, accessible anywhere.
 
-  Fylo stores all your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
+<main class="container">
+  <section class="section-left">
+    <img src="images/illustration-main.svg" alt="" class="imagem">
+  </section><!--Section-Left Break-->
 
-  Sign up for early access
+  <section class="section-right">
+    <div class="header">
+      <div class="nav">
+        <img class="logo" src="images/logo.svg" alt="">
+        <ul class="social-ico">
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fas fa-envelope"></i></li>
+        </ul>
+      </div><!--Nav Break-->
 
-  Sign Up
+      <div class="intro">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
 
-  Privacy Policy
+          <p> Fylo stores all your most important files in one secure location. 
+              Access them wherever you need, share and collaborate with friends, 
+              family and co-workers.</p>
+  
+          <form action="" method="post">
+            <h3>Sign up for early access</h3>
+            <input type="email" name="" id="">
+            <input type="submit" value="Sign Up">
+          </form><!--Form Break-->
 
-  <footer>
+      </div><!--Intro Break-->
+
+      <a class="terms" href="#">Privacy Policy</a>
+    </div><!--Header Break-->
+  </section><!--Section-Right Break-->
+</main>
+
+        
+
+  <!--<footer>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
     </p>
-  </footer>
+  </footer>-->
 </body>
 </html>
